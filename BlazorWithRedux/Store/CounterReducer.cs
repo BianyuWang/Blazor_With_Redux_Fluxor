@@ -13,7 +13,7 @@ namespace BlazorWithRedux.Store
         {
             return state with
             {
-                Count = state.Count 
+                Count = state.Count +1
             };
 
         }
